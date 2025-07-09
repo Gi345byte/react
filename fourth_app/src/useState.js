@@ -15,5 +15,4 @@ export function AvengerUseState(){
     return <>
     <h1> I am {name} and my heroic_name is {heroic_name}</h1>
     <button type='button' onClick={changeName}> change name</button></>
-
 }
