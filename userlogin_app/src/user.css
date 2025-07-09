@@ -1,0 +1,65 @@
+/* user.css */
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+}
+
+.user-card {
+    background: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.user-heading {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #1976d2;
+}
+
+.signup-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: #388e3c;
+}
