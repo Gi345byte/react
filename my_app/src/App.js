@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+export function App(){
+  let result 
+  let errmsg=''
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  try{
+    let a=10
+    let b=0
+    if(b===0){
+      throw new Error('spmething went wrong')
+    }
+    result=a/b
+  }
+
+  catch(err){
+    errmsg=err.message
+
+  }
+
+  return<>
+  {errmsg? <p>{errmsg}</p> : <h1>Ressult is : {result}</h1>}</>
+
+
 }
-
-export default App;
