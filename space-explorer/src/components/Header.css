@@ -1,0 +1,39 @@
+/* === Header.css === */
+.header {
+  background-color: #0b1c2c;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header a {
+  text-decoration: none;
+  color: #cfd8dc;
+  font-size: 1.05rem;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.header a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .header a {
+    font-size: 1.1rem;
+  }
+}

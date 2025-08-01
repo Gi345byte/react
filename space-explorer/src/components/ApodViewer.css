@@ -1,0 +1,36 @@
+.apod-section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.apod-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.apod-card h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.apod-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.apod-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.date-picker {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}

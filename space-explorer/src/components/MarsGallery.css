@@ -1,0 +1,43 @@
+.mars-section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.mars-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.mars-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.mars-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.mars-card p {
+  margin-top: 0.5rem;
+  color: #444;
+}
+
+.filter-controls {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter-controls input,
+.filter-controls select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
