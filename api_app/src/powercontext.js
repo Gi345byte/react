@@ -1,3 +1,3 @@
 import React from 'react'
 
-export const Powercontext=React.createContext()
+export const Powercontext=React.createContext();
